@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		17E212EAA98E17E8601867C0 /* Pods-YDCTMediatorSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDCTMediatorSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-YDCTMediatorSDK_Example/Pods-YDCTMediatorSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		3AAD7F15A7A6A1A76DF773DB /* YDCTMediatorSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YDCTMediatorSDK.podspec; path = ../YDCTMediatorSDK.podspec; sourceTree = "<group>"; };
+		3AAD7F15A7A6A1A76DF773DB /* YDCTMediatorSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YDCTMediatorSDK.podspec; path = ../YDCTMediatorSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5A3C3D344B0B95949A46728F /* Pods-YDCTMediatorSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDCTMediatorSDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-YDCTMediatorSDK_Tests/Pods-YDCTMediatorSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YDCTMediatorSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YDCTMediatorSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		C870378F9104E06140712C0A /* Pods-YDCTMediatorSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDCTMediatorSDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YDCTMediatorSDK_Tests/Pods-YDCTMediatorSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D990343227AED2E86843ACD0 /* Pods_YDCTMediatorSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDCTMediatorSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E33024B062F1B91D7198F6D8 /* Pods-YDCTMediatorSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YDCTMediatorSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-YDCTMediatorSDK_Example/Pods-YDCTMediatorSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		EC138B1E7DD76A708EE8D4F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EC138B1E7DD76A708EE8D4F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F9A33DED54167D3482B235C5 /* Pods_YDCTMediatorSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDCTMediatorSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBD34D44F227E364382D38EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FBD34D44F227E364382D38EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				C870378F9104E06140712C0A /* Pods-YDCTMediatorSDK_Tests.debug.xcconfig */,
 				5A3C3D344B0B95949A46728F /* Pods-YDCTMediatorSDK_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -516,10 +516,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDCTMediatorSDK/YDCTMediatorSDK-Prefix.pch";
 				INFOPLIST_FILE = "YDCTMediatorSDK/YDCTMediatorSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -532,10 +534,12 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YDCTMediatorSDK/YDCTMediatorSDK-Prefix.pch";
 				INFOPLIST_FILE = "YDCTMediatorSDK/YDCTMediatorSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

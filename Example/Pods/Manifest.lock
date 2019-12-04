@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - YDCTMediatorSDK (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YDCTMediatorSDK (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  YDCTMediatorSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  YDCTMediatorSDK: 63b5e848147e9f21ed07081ede2d45ef27d604c1
+
+PODFILE CHECKSUM: a34a7aee4cf3409a6f63b2036c0fa6ad4b9b62dc
+
+COCOAPODS: 1.8.4
