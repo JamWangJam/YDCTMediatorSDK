@@ -12,7 +12,7 @@ NSString * const kCTMediatorTargetA = @"YDQSActions";
 
 NSString * const kCTMediatorActionNativeFetchDetailViewController = @"nativeFetchDetailViewController";
 
-NSString * const kCTMediatorActionShowAlert = @"backBlock";
+NSString * const kCTMediatorActionShowAlert = @"showAlert";
 
 
 @implementation CTMediator (Module_LH)
