@@ -74,7 +74,7 @@
 		1B8ABEEA76ECDF1975B6D0787700F929 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		1C7ED6D006827AFED9B0DBF4363C18B1 /* Pods-YDCTMediatorSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDCTMediatorSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1D0C98C4AB453C171EAFDAE849F03A24 /* Pods-YDCTMediatorSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDCTMediatorSDK_Example.modulemap"; sourceTree = "<group>"; };
-		20C761EE70FC5C607EEE0136F13310B7 /* YDCTMediatorSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YDCTMediatorSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		20C761EE70FC5C607EEE0136F13310B7 /* YDCTMediatorSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YDCTMediatorSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		22AA3D97A6DF6FF04CDFCC4ABD8C7AA9 /* Pods-YDCTMediatorSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDCTMediatorSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2AB558036CBFFA45D2B7886FA3F71370 /* Pods-YDCTMediatorSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YDCTMediatorSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		2C8DFB9A64D54D4FF7A559D6B7293FA9 /* Pods-YDCTMediatorSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YDCTMediatorSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		431C0B3F5AFAC9D1F36293CED2B27348 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CTMediator.h; sourceTree = "<group>"; };
 		49D1E1681056532DE508B63171A7F1DE /* Pods-YDCTMediatorSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDCTMediatorSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4A74156D39F4002A208267113E9467F2 /* YDCTMediatorSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDCTMediatorSDK-dummy.m"; sourceTree = "<group>"; };
-		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCF2F83B2040D2160485DE615450E7F /* YDCTMediatorSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YDCTMediatorSDK-Info.plist"; sourceTree = "<group>"; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		5F7F38490A6783C42F3618C11052C121 /* YDCTMediatorSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDCTMediatorSDK-umbrella.h"; sourceTree = "<group>"; };
@@ -101,13 +101,13 @@
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8F1FE5C23F1BC485C54B92C32E78391F /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		98FD387DFA194173633270BAF1BCD859 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A25844C26701FA4BCAEF64150B56777F /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		A3DD3CA9CFC4FA927F8E7CB9CAEA766E /* Pods_YDCTMediatorSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YDCTMediatorSDK_Example.framework; path = "Pods-YDCTMediatorSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3DD3CA9CFC4FA927F8E7CB9CAEA766E /* Pods_YDCTMediatorSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDCTMediatorSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA172EA1A198EEFBE0794EACF7993C02 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		AC2AC5F194548735F0B038C961E48F92 /* YDCTMediatorSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YDCTMediatorSDK.modulemap; sourceTree = "<group>"; };
 		AD0B81AC7DF4855803A0FA70985F8A99 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		B6B82E6D2756FC88141720EB6F36C2EB /* YDCTMediatorSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YDCTMediatorSDK.framework; path = YDCTMediatorSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6B82E6D2756FC88141720EB6F36C2EB /* YDCTMediatorSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDCTMediatorSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78EF5D6BC01AEDB7179549CE6217363 /* Pods-YDCTMediatorSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDCTMediatorSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		C962DB3ECDA752DCD22CE4F3990C3264 /* Pods-YDCTMediatorSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDCTMediatorSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CA76F155EB2D9ADE5A0EBAE7DEF79E3C /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CTMediator.m; sourceTree = "<group>"; };
@@ -115,18 +115,18 @@
 		D3067EAFD5B0A06885968D137840DB70 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		D7C62955C7753DDEC3F0CDBFB0159573 /* Pods-YDCTMediatorSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDCTMediatorSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DACF628E0FFB04E29E8B339B5CE8F90E /* YDCTMediatorSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDCTMediatorSDK-prefix.pch"; sourceTree = "<group>"; };
-		DB8D4561C09621849D889FDD48FAE996 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DB8D4561C09621849D889FDD48FAE996 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DC155B9DD0336BDC80C9B591B77AD55D /* Pods-YDCTMediatorSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDCTMediatorSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		DE35F81C954881204729C569018D98C0 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		DFAE4FA5BEF316BDEE1790BF2E65D9E5 /* Pods-YDCTMediatorSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDCTMediatorSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		DFF056E9BC1419DDF052DFDCD14DC20C /* Pods_YDCTMediatorSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YDCTMediatorSDK_Tests.framework; path = "Pods-YDCTMediatorSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFF056E9BC1419DDF052DFDCD14DC20C /* Pods_YDCTMediatorSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDCTMediatorSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0956940883830C651240E754E3ECC52 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		E354F8FD537351F26F7949B4EBFA5101 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		E621F768263424D9C5C35D58513625CB /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		EA718A72E676291836EBB46B85242155 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		EBD719A3530C39E442FC725E3E3A8077 /* CTMediator+Module_LH.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+Module_LH.m"; sourceTree = "<group>"; };
 		EF53D290F564A9B10CEF56C9DC2010F2 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		F2BB50B6E83B61A2790A5809EB92E445 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F2BB50B6E83B61A2790A5809EB92E445 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F70B2143197F3A2A8CB5509B5AECB300 /* YDCTMediatorSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDCTMediatorSDK.xcconfig; sourceTree = "<group>"; };
 		FEE3891CAD2F99B28778B6C77B1FE8B2 /* Pods-YDCTMediatorSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YDCTMediatorSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,10 +183,10 @@
 		0B3122066E33091AC3601610D0ACE63D /* YDCTMediatorSDK */ = {
 			isa = PBXGroup;
 			children = (
+				EBF324D16532E9ECFCDA3BC633EB34AF /* YDCTMediator */,
 				96E7FBF7C8086B10EA471835FAA8EB29 /* Module-LH */,
 				058E0F9A11CBE2C5B49DD8561351D2F8 /* Pod */,
 				24C438F7A98F5C09D4B9B69E6B9EEB33 /* Support Files */,
-				EBF324D16532E9ECFCDA3BC633EB34AF /* YDCTMediator */,
 			);
 			name = YDCTMediatorSDK;
 			path = ../..;
@@ -272,7 +272,6 @@
 				45E4BEB48F67ECE4946F86A2669DF19F /* Support Files */,
 				820C839EC049005CB82FAAF13AFDCB95 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -377,8 +376,7 @@
 				431C0B3F5AFAC9D1F36293CED2B27348 /* CTMediator.h */,
 				CA76F155EB2D9ADE5A0EBAE7DEF79E3C /* CTMediator.m */,
 			);
-			name = YDCTMediator;
-			path = YDCTMediatorSDK/Classes/YDCTMediator;
+			path = YDCTMediator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -784,8 +782,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
